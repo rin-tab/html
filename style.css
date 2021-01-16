@@ -1,0 +1,31 @@
+.container{
+    width: 80%;
+    background: #585555;
+    padding: 15px;
+    margin: auto;
+    font-family: sans-serif;  
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid;
+    color: #ece9e9;
+    padding: 10px;
+}
+thead{
+    text-transform: uppercase;
+    background: #60d83b;
+}
+tbody tr:nth-child(odd){
+    background: #e62626;
+}
+tbody tr:nth-child(even){
+    background: #6026e6;
+}
+.cap{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+}

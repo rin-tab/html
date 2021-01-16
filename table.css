@@ -1,0 +1,24 @@
+table{
+      font-family: sans-serif;
+      width: 60%;
+      border-collapse: collapse;
+      font-family: sans-serif;
+}
+td,th{
+      border: 2px solid;
+      padding: 10px;
+
+}
+thead, caption{
+      background: rgb(44, 44, 44);
+      color: white;
+}
+caption{
+      padding: 10px;
+}
+tbody>:nth-child(even){
+      background: yellow;
+}
+tbody>:nth-child(odd){
+      background: red;
+}
